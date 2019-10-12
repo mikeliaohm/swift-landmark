@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F768773A23522D4A007E41A4 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F768773723522D4A007E41A4 /* Data.swift */; };
+		F768773B23522D4A007E41A4 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = F768773823522D4A007E41A4 /* landmarkData.json */; };
+		F768773E23522DDA007E41A4 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = F768773D23522DDA007E41A4 /* Landmark.swift */; };
+		F768774023522E63007E41A4 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F768773F23522E63007E41A4 /* LandmarkDetail.swift */; };
 		F780D17D23521A84005CC8EA /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F780D17C23521A84005CC8EA /* CircleImage.swift */; };
 		F780D17F23521B35005CC8EA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F780D17E23521B35005CC8EA /* MapView.swift */; };
 		F7C9091A2351D684003F493B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C909192351D684003F493B /* AppDelegate.swift */; };
@@ -18,9 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F768773723522D4A007E41A4 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		F768773823522D4A007E41A4 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		F768773D23522DDA007E41A4 /* Landmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		F768773F23522E63007E41A4 /* LandmarkDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		F780D17C23521A84005CC8EA /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		F780D17E23521B35005CC8EA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
-		F7C909162351D684003F493B /* Landmark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7C909162351D684003F493B /* Official.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Official.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7C909192351D684003F493B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7C9091B2351D684003F493B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F7C9091D2351D684003F493B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,6 +49,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F768773623522D4A007E41A4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F768773D23522DDA007E41A4 /* Landmark.swift */,
+				F768773723522D4A007E41A4 /* Data.swift */,
+				F768773823522D4A007E41A4 /* landmarkData.json */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		F7C9090D2351D684003F493B = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +70,7 @@
 		F7C909172351D684003F493B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F7C909162351D684003F493B /* Landmark.app */,
+				F7C909162351D684003F493B /* Official.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,9 +83,11 @@
 				F7C9091D2351D684003F493B /* ContentView.swift */,
 				F7C9091F2351D686003F493B /* Assets.xcassets */,
 				F780D17C23521A84005CC8EA /* CircleImage.swift */,
+				F768773F23522E63007E41A4 /* LandmarkDetail.swift */,
 				F780D17E23521B35005CC8EA /* MapView.swift */,
 				F7C909242351D686003F493B /* LaunchScreen.storyboard */,
 				F7C909272351D686003F493B /* Info.plist */,
+				F768773623522D4A007E41A4 /* Models */,
 				F7C909212351D686003F493B /* Preview Content */,
 			);
 			path = Landmark;
@@ -98,7 +118,7 @@
 			);
 			name = Landmark;
 			productName = Landmark;
-			productReference = F7C909162351D684003F493B /* Landmark.app */;
+			productReference = F7C909162351D684003F493B /* Official.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -140,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7C909262351D686003F493B /* LaunchScreen.storyboard in Resources */,
+				F768773B23522D4A007E41A4 /* landmarkData.json in Resources */,
 				F7C909232351D686003F493B /* Preview Assets.xcassets in Resources */,
 				F7C909202351D686003F493B /* Assets.xcassets in Resources */,
 			);
@@ -152,8 +173,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F768773E23522DDA007E41A4 /* Landmark.swift in Sources */,
 				F7C9091A2351D684003F493B /* AppDelegate.swift in Sources */,
+				F768773A23522D4A007E41A4 /* Data.swift in Sources */,
 				F780D17D23521A84005CC8EA /* CircleImage.swift in Sources */,
+				F768774023522E63007E41A4 /* LandmarkDetail.swift in Sources */,
 				F780D17F23521B35005CC8EA /* MapView.swift in Sources */,
 				F7C9091C2351D684003F493B /* SceneDelegate.swift in Sources */,
 				F7C9091E2351D684003F493B /* ContentView.swift in Sources */,
@@ -301,8 +325,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ml.Landmark;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = ml.Official;
+				PRODUCT_NAME = Official;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -321,8 +345,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ml.Landmark;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = ml.Official;
+				PRODUCT_NAME = Official;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
