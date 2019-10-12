@@ -12,12 +12,17 @@ struct LandmarkRow: View {
     var landmark: Landmark
     
     var body: some View {
-        Text("Hello Row!")
+        HStack {
+            landmark.image
+                .resizable()
+                .frame(width: 50, height: 50)
+            Text(landmark.name)
+        }
     }
 }
 
 struct LandmarkRow_Previews: PreviewProvider {
     static var previews: some View {
-        LandmarkRow(landmark: landmarkData[0])
+        LandmarkRow(landmark: landmarkData[1])
     }
 }

@@ -11,7 +11,7 @@ import CoreLocation
 import SwiftUI
 
 let landmarkData: [Landmark] = load("landmarkData.json")
-
+let features = landmarkData.filter { $0.isFeatured }
 
 func load<T: Decodable>(_ filename: String, as type: T.Type = T.self) -> T {
     let data: Data
@@ -34,7 +34,6 @@ func load<T: Decodable>(_ filename: String, as type: T.Type = T.self) -> T {
         fatalError("Couldn't parse \(filename) as \(T.self):\n\(error)")
     }
 }
-
 
 final class ImageStore {
     typealias _ImageDictionary = [String: CGImage]
@@ -68,4 +67,3 @@ final class ImageStore {
         return images.index(forKey: name)!
     }
 }
-
