@@ -58,6 +58,7 @@
 		F7E6043823535F8A00DF5467 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6043723535F8A00DF5467 /* PageViewController.swift */; };
 		F7E6043A2353614900DF5467 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E604392353614900DF5467 /* PageView.swift */; };
 		F7E6043C2353693600DF5467 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6043B2353693600DF5467 /* PageControl.swift */; };
+		F7E6043E2353706A00DF5467 /* PageViewAlt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6043D2353706A00DF5467 /* PageViewAlt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -114,6 +115,7 @@
 		F7E6043723535F8A00DF5467 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		F7E604392353614900DF5467 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		F7E6043B2353693600DF5467 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		F7E6043D2353706A00DF5467 /* PageViewAlt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewAlt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,6 +263,7 @@
 			children = (
 				F7E6043723535F8A00DF5467 /* PageViewController.swift */,
 				F7E604392353614900DF5467 /* PageView.swift */,
+				F7E6043D2353706A00DF5467 /* PageViewAlt.swift */,
 				F7E6043B2353693600DF5467 /* PageControl.swift */,
 			);
 			path = Home;
@@ -359,6 +362,7 @@
 				F7C9091A2351D684003F493B /* AppDelegate.swift in Sources */,
 				F7E6042D235340E100DF5467 /* ProfileHost.swift in Sources */,
 				F768773A23522D4A007E41A4 /* Data.swift in Sources */,
+				F7E6043E2353706A00DF5467 /* PageViewAlt.swift in Sources */,
 				F780D17D23521A84005CC8EA /* CircleImage.swift in Sources */,
 				F7E6041C2352EFD600DF5467 /* HikeView.swift in Sources */,
 				F7E6042A2352F82E00DF5467 /* CategoryRow.swift in Sources */,
