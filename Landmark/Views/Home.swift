@@ -49,6 +49,10 @@ struct CategoryHome: View {
                 NavigationLink(destination: LandmarkList()) {
                     Text("See All")
                 }
+                
+                NavigationLink(destination: PageView(features.map { FeatureCard(landmark: $0) }).aspectRatio(3/2, contentMode: .fit)) {
+                    Text("Go to page view")
+                }
             }
             .navigationBarTitle(Text("Featured"))
             .navigationBarItems(trailing: profileButton)
