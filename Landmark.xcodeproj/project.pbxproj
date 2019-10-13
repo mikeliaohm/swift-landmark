@@ -54,6 +54,7 @@
 		F7E6042F2353414E00DF5467 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E6042E2353414E00DF5467 /* Profile.swift */; };
 		F7E604312353428300DF5467 /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E604302353428300DF5467 /* ProfileSummary.swift */; };
 		F7E604332353441100DF5467 /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E604322353441100DF5467 /* HikeBadge.swift */; };
+		F7E604352353472F00DF5467 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E604342353472F00DF5467 /* ProfileEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -106,6 +107,7 @@
 		F7E6042E2353414E00DF5467 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		F7E604302353428300DF5467 /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		F7E604322353441100DF5467 /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
+		F7E604342353472F00DF5467 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +243,7 @@
 			isa = PBXGroup;
 			children = (
 				F7E6042C235340E100DF5467 /* ProfileHost.swift */,
+				F7E604342353472F00DF5467 /* ProfileEditor.swift */,
 				F7E604302353428300DF5467 /* ProfileSummary.swift */,
 			);
 			path = User;
@@ -352,6 +355,7 @@
 				F7E6041A2352E30600DF5467 /* Badge.swift in Sources */,
 				F7E604222352F05600DF5467 /* HikeGraph.swift in Sources */,
 				F7E6042F2353414E00DF5467 /* Profile.swift in Sources */,
+				F7E604352353472F00DF5467 /* ProfileEditor.swift in Sources */,
 				F7E604282352F5B700DF5467 /* Home.swift in Sources */,
 				F780D17F23521B35005CC8EA /* MapView.swift in Sources */,
 				F7C9091C2351D684003F493B /* SceneDelegate.swift in Sources */,
