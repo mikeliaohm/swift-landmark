@@ -50,7 +50,7 @@ struct CategoryHome: View {
                     Text("See All")
                 }
                 
-                NavigationLink(destination: PageView(features.map { FeatureCard(landmark: $0) }).aspectRatio(3/2, contentMode: .fit)) {
+                NavigationLink(destination: PageView(features.map { FeatureCard(landmark: $0) })) {
                     Text("Go to page view")
                 }
             }

@@ -10,12 +10,23 @@ import SwiftUI
 
 struct FeatureCard: View {
     var landmark: Landmark
+    @State var scale: CGFloat = 1
+    @State var zoom = false
     
     var body: some View {
         landmark.featureImage?
             .resizable()
-            .aspectRatio(3 / 2, contentMode: .fit)
+            .aspectRatio(3 / 2, contentMode: (self.zoom ? .fill : .fit))
             .overlay(TextOverlay(landmark: landmark))
+            .scaleEffect(self.scale)
+            .onTapGesture {
+                self.zoom.toggle()
+            }
+            .gesture(MagnificationGesture()
+                .onChanged { value in
+                    self.scale = value.magnitude
+                }
+            )
     }
 }
 
